@@ -1,0 +1,23 @@
+﻿@model TODOList.Models.IndexViewModel
+
+@using (Html.BeginForm("_AddTask", "Home", FormMethod.Post))
+{
+    <div class="modal fade" id="addModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Add Task</h4>
+                </div>
+                <div class="modal-body">
+                    @Html.EditorFor(Model => Model.Task.Description, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Create</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
