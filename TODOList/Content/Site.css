@@ -1,0 +1,59 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.task-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 800px;
+}
+
+    .task-list li .task-checkbox {
+        float: left;
+        width: 30px;
+    }
+
+    .task-list li .task-title {
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+    .task-list li {
+        position: relative;
+        padding: 10px 5px;
+        border-bottom: 1px dashed #eaeaea;
+        list-style: none;
+    }
+
+        .task-list li.task-done:hover {
+            background: #f4f4f4;
+        }
+
+        .task-list li:hover {
+            background: #f9f9f9;
+        }
+
+        .task-list li.task-done label {
+            text-decoration: line-through;
+            color: #bbbbbb;
+        }
