@@ -53,7 +53,6 @@ D:\TODO\TODOList\TODOList\bin\Microsoft.AI.ServerTelemetryChannel.dll
 D:\TODO\TODOList\TODOList\bin\Microsoft.AI.Web.dll
 D:\TODO\TODOList\TODOList\bin\Microsoft.AI.WindowsServer.dll
 D:\TODO\TODOList\TODOList\bin\Microsoft.ApplicationInsights.dll
-D:\TODO\TODOList\TODOList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\TODO\TODOList\TODOList\bin\Microsoft.Web.Infrastructure.dll
 D:\TODO\TODOList\TODOList\bin\Newtonsoft.Json.dll
 D:\TODO\TODOList\TODOList\bin\System.Web.Helpers.dll
@@ -64,7 +63,6 @@ D:\TODO\TODOList\TODOList\bin\System.Web.WebPages.Deployment.dll
 D:\TODO\TODOList\TODOList\bin\System.Web.WebPages.dll
 D:\TODO\TODOList\TODOList\bin\System.Web.WebPages.Razor.dll
 D:\TODO\TODOList\TODOList\bin\WebGrease.dll
-D:\TODO\TODOList\TODOList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\TODO\TODOList\TODOList\bin\System.Web.Helpers.xml
 D:\TODO\TODOList\TODOList\bin\System.Web.Mvc.xml
 D:\TODO\TODOList\TODOList\bin\System.Web.Optimization.xml
