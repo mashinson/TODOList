@@ -28,6 +28,7 @@ namespace TODOList.Controllers
         public ActionResult _EditTask(IndexViewModel model)
         {
             //Commit1
+            //Сommit2
             int index = -1;
             index = MvcApplication.ViewModel.TodoList.FindIndex(t => t.ID == model.Task.ID);
             if (index == -1)
